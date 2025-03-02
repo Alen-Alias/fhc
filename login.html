@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alen Alias Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h2>Login</h2>
+        </div>
+        <form action="/login" method="POST">
+            <div class="form-group" style="--i:0">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <span class="error-message">Please enter your username</span>
+            </div>
+            <div class="form-group" style="--i:1">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <span class="error-message">Please enter your password</span>
+            </div>
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+</body>
+</html>
