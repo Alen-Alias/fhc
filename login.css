@@ -46,8 +46,6 @@ body {
     text-align: center;
     font-weight: 600;
 }
-
-/* Form inputs */
 .form-group {
     margin-bottom: 1.5rem;
     position: relative;
@@ -76,7 +74,6 @@ body {
     box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
 }
 
-/* Login button */
 button[type="submit"] {
     width: 100%;
     padding: 0.8rem;
@@ -100,7 +97,6 @@ button[type="submit"]:active {
     transform: translateY(0);
 }
 
-/* Error states */
 input:invalid {
     border-color: var(--error-color);
 }
@@ -116,7 +112,6 @@ input:invalid + .error-message {
     display: block;
 }
 
-/* Responsive design */
 @media (max-width: 480px) {
     .login-container {
         padding: 1.5rem;
@@ -132,7 +127,6 @@ input:invalid + .error-message {
     }
 }
 
-/* Animation for form elements */
 @keyframes fadeIn {
     from {
         opacity: 0;
